@@ -1,0 +1,8 @@
+<!-- Страница 1. Контент повторяется 2 раза без изменения content -->
+
+{% extends 'flatpages/default.html' %}
+
+{% block content %}
+    {{ flatpage.content }}
+    {{ flatpage.content }}
+{% endblock content %}
